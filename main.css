@@ -27,6 +27,12 @@ body {
     pointer-events: none;
 }
 
+main {
+    position: relative !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
 h1 {
     position: absolute;
     top: 38%;
@@ -41,6 +47,7 @@ h1 {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-bottom: 40rem;
 }
 
 .button a {
