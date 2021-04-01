@@ -28,7 +28,7 @@ body {
 }
 
 main {
-    position: relative !important;
+    position: intial !important;
     overflow-x: hidden !important;
     overflow-y: auto !important;
 }
